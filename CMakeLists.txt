@@ -147,6 +147,7 @@ foreach(SD_API_VER ${SD_API_VERS})
         include/${SD_API_VER_L}/ble_ranges.h
         include/${SD_API_VER_L}/ble_types.h
         include/${SD_API_VER_L}/nrf_error.h
+        include/common/internal/transport/serial_port_enum.h
     )
 
     string(TOLOWER ${SD_API_VER} SD_API_VER_L)
